@@ -29,6 +29,14 @@ ln -s ~/dotfiles/.zshrc ~/.zshrc
 - **Shell:** zsh via oh-my-zsh
 - **Theme:** robbyrussell
 - **fzf integration:** enabled via `eval "$(fzf --zsh)"` in `.zshrc`
+- **Plugins:** `git`, `zsh-autosuggestions`, `zsh-syntax-highlighting`
+
+The two custom plugins must be cloned into `~/.oh-my-zsh/custom/plugins/`:
+
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+```
 
 ## Package Manager Conventions
 
