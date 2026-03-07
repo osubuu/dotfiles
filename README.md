@@ -40,4 +40,4 @@ ln -s ~/dotfiles/.zshrc ~/.zshrc
 ## Notes
 
 - `pip3` and system Ruby `gem` are present as macOS/Xcode bundled tools — ignored, not used for development
-- `npm` and `yarn` are present on the system but not used — `npm` is bundled with `node`, `yarn` may still be installed
+- `npm` is present but not used — it is bundled with `node` and cannot be removed independently
