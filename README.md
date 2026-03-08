@@ -26,7 +26,9 @@ A `Brewfile` is included for one-command installs (`brew bundle --file=~/dotfile
 | `zsh` | Shell (newer than macOS bundled version) |
 | `jq` | JSON processor (used in shell scripting) |
 | `fzf` | Fuzzy finder — shell history search via `ctrl+r` |
+| `git-delta` | Better git diffs — syntax highlighting, side-by-side view |
 | `ripgrep` | Fast code search across files |
+| `tlrc` | Simplified man pages (`tldr <command>`) |
 
 ## Shell
 
