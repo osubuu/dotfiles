@@ -9,6 +9,7 @@ Clone and symlink:
 ```bash
 git clone git@github.com:osubuu/dotfiles.git ~/dotfiles
 ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/dotfiles/ghostty-config ~/Library/Application\ Support/com.mitchellh.ghostty/config
 ```
 
 ## Homebrew Packages
@@ -30,6 +31,11 @@ A `Brewfile` is included for one-command installs (`brew bundle --file=~/dotfile
 | `ripgrep` | Fast code search across files |
 | `terminal-notifier` | macOS desktop notifications from the command line |
 | `tlrc` | Simplified man pages (`tldr <command>`) |
+
+## Terminal
+
+- **Terminal emulator:** [Ghostty](https://ghostty.org/) (installed via `brew install --cask ghostty`)
+- **Config:** `~/dotfiles/ghostty-config` → symlinked to `~/Library/Application Support/com.mitchellh.ghostty/config`
 
 ## Shell
 
