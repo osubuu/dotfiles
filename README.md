@@ -28,6 +28,7 @@ A `Brewfile` is included for one-command installs (`brew bundle --file=~/dotfile
 | `fzf` | Fuzzy finder — shell history search via `ctrl+r` |
 | `git-delta` | Better git diffs — syntax highlighting, side-by-side view |
 | `ripgrep` | Fast code search across files |
+| `terminal-notifier` | macOS desktop notifications from the command line |
 | `tlrc` | Simplified man pages (`tldr <command>`) |
 
 ## Shell
