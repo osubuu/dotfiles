@@ -1,0 +1,9 @@
+[user]
+	name = <your name>
+	email = <your email>
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[fetch]
+	prune = true
