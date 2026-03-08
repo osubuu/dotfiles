@@ -13,6 +13,8 @@ ln -s ~/dotfiles/.zshrc ~/.zshrc
 
 ## Homebrew Packages
 
+A `Brewfile` is included for one-command installs (`brew bundle --file=~/dotfiles/Brewfile`). It also captures VS Code extensions. The table below describes each package — keep both in sync when adding or removing packages. To regenerate the Brewfile: `brew bundle dump --file=~/dotfiles/Brewfile --force`.
+
 | Package | Purpose |
 |---|---|
 | `bun` | TypeScript/JavaScript runtime and bundler (via `oven-sh/bun` tap) |
