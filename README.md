@@ -15,9 +15,11 @@ ln -s ~/dotfiles/.zshrc ~/.zshrc
 
 | Package | Purpose |
 |---|---|
+| `bun` | TypeScript/JavaScript runtime and bundler (via `oven-sh/bun` tap) |
 | `gh` | GitHub CLI |
 | `node` | Node.js runtime (brings npm) |
 | `pnpm` | JavaScript/TypeScript package manager |
+| `python3` | Python runtime (installs latest stable, shadows Xcode-bundled 3.9) |
 | `uv` | Python package manager |
 | `zsh` | Shell (newer than macOS bundled version) |
 | `jq` | JSON processor (used in shell scripting) |
@@ -38,6 +40,14 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/p
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
 
+## Git
+
+The actual `~/.gitconfig` is not tracked because it contains PII (name, email). A template is provided at `.gitconfig.example` — copy it and fill in your details:
+
+```bash
+cp ~/dotfiles/.gitconfig.example ~/.gitconfig
+```
+
 ## Package Manager Conventions
 
 - **JavaScript/TypeScript:** `pnpm` only — never `npm install` or `yarn`
@@ -49,3 +59,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/cust
 
 - `pip3` and system Ruby `gem` are present as macOS/Xcode bundled tools — ignored, not used for development
 - `npm` is present but not used — it is bundled with `node` and cannot be removed independently
+- `/usr/bin/python3` (Xcode-bundled 3.9.6) still exists but is shadowed by Homebrew's `python3` in PATH
