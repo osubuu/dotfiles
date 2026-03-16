@@ -1,4 +1,4 @@
-# dotfiles
+# dotfiles 
 
 Personal machine configuration for macOS (Apple Silicon).
 
