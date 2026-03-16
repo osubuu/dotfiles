@@ -66,6 +66,17 @@ cp ~/dotfiles/.gitconfig.example ~/.gitconfig
 - **Global npm packages:** none — use `pnpm dlx` for one-off CLI tools
 - **Global uv tools:** none — use `uv run` or per-project `uv add`
 
+## GUI Apps
+
+Apps installed manually (not via Homebrew) that are part of the dev setup:
+
+| App | Purpose | Install |
+|---|---|---|
+| VS Code | Primary code editor (extensions tracked in Brewfile) | Download from [code.visualstudio.com](https://code.visualstudio.com/download) |
+| Docker Desktop | Container runtime and local Docker daemon | Download from [docker.com](https://www.docker.com/products/docker-desktop/) |
+| DBeaver | Database GUI client | Download from [dbeaver.io](https://dbeaver.io/download/) |
+| Postman | API testing and development | Download from [postman.com](https://www.postman.com/downloads/) |
+
 ## Notes
 
 - `pip3` and system Ruby `gem` are present as macOS/Xcode bundled tools — ignored, not used for development
