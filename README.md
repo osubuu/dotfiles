@@ -29,6 +29,8 @@ A `Brewfile` is included for one-command installs (`brew bundle --file=~/dotfile
 | `fzf` | Fuzzy finder — shell history search via `ctrl+r` |
 | `git-delta` | Better git diffs — syntax highlighting, side-by-side view |
 | `ripgrep` | Fast code search across files |
+| `googleworkspace-cli` | Google Workspace CLI (`gws`) — interact with Gmail, Drive, Sheets, and other Workspace APIs from the terminal |
+| `gcloud-cli` *(cask)* | Google Cloud SDK — required for `gws auth setup` OAuth flow. After install, run `gws auth setup` once to authenticate (credentials stored in OS keyring). |
 | `terminal-notifier` | macOS desktop notifications from the command line |
 | `tlrc` | Simplified man pages (`tldr <command>`) |
 
