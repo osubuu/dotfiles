@@ -102,6 +102,10 @@ source $ZSH/oh-my-zsh.sh
 
 eval $(/opt/homebrew/bin/brew shellenv)
 
+# Google Cloud SDK
+source /opt/homebrew/share/google-cloud-sdk/path.zsh.inc
+source /opt/homebrew/share/google-cloud-sdk/completion.zsh.inc
+
 # fzf shell integration
 eval "$(fzf --zsh)"
 # Claude Code aliases
