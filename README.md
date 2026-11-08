@@ -33,6 +33,7 @@ A `Brewfile` is included for one-command installs (`brew bundle --file=~/dotfile
 | `gcloud-cli` *(cask)* | Google Cloud SDK — required for `gws auth setup` OAuth flow. After install, run `gws auth setup` once to authenticate (credentials stored in OS keyring). |
 | `terminal-notifier` | macOS desktop notifications from the command line |
 | `tlrc` | Simplified man pages (`tldr <command>`) |
+| `herdr` | Terminal agent multiplexer — run and manage multiple coding agents side by side |
 
 ## Terminal
 
